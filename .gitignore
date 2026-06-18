@@ -24,3 +24,8 @@ weights/*.pth
 
 # Logs
 *.log
+
+data/
+*.mp4
+*.avi
+*.pt
