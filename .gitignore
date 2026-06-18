@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environment
+venv/
+.env
+
+# VS Code
+.vscode/
+
+# Outputs
+outputs/*.mp4
+outputs/*.csv
+
+# Videos
+videos/*.mp4
+videos/*.avi
+
+# Model Weights
+weights/*.pt
+weights/*.pth
+
+# Logs
+*.log
