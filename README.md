@@ -9,7 +9,7 @@ A confidence-based multi-sensor fusion framework for autonomous vehicle percepti
 - YOLO Object Detection
 - Depth Estimation
 - Adaptive Sensor Fusion
-- Object Tracking
+- Object Trackinggit 
 - Risk Assessment
 - ADAS Decision Engine
 - HUD Visualization
