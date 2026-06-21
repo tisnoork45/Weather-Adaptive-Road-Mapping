@@ -221,12 +221,12 @@ class ConditionDetector:
         active: List[Condition] = []
 
         # Night / dark / twilight
-        if brightness < 30:
-            active.append(Condition.NIGHT)
-        elif brightness < 60:
-            active.append(Condition.DARK)
-        elif brightness < 95:
-            active.append(Condition.TWILIGHT)
+        if brightness < 50:
+    active.append(Condition.NIGHT)
+elif brightness < 85:
+    active.append(Condition.DARK)
+elif brightness < 120:
+    active.append(Condition.TWILIGHT)
 
         # Fog
         if fog_score > 0.70:
@@ -241,7 +241,7 @@ class ConditionDetector:
             active.append(Condition.RAIN)
 
         # Blur
-        if blur_score > 0.55:
+        if blur_score > 0.75:
             active.append(Condition.BLUR)
 
         # Snow
